@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int N,i,j;
+    scanf("%d",&N);
+    int val = 1;
+    int space = N-1;
+    for(i=1; i<=N; i++)
+    {
+        for(j=1; j<=space; j++)
+        {
+            printf(" ");
+        }
+        for(j=val; j>=1; j--)
+        {
+            printf("%d",j);
+        }
+    
+        printf("\n");
+        val++;
+        space--;
+    }
+}
+
+
