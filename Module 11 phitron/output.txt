@@ -1,0 +1,3 @@
+Number of digits = 8
+Number of small letter = 3
+Number of capital letter = 5
